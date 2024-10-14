@@ -1,0 +1,83 @@
+
+
+div{
+  font-family: arial;
+
+}
+
+.twitter-card{
+  display: flex;
+  width: 420px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  }
+
+
+
+.user-picture{
+  width: 60px;
+
+}
+
+img{
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 25px;
+  margin-left: 5px;
+}
+
+.tweet-card{
+  flex: 1;
+  margin-left: 8px;
+  max-width: 400px;
+}
+
+.user-info{
+  margin-bottom: 5px;
+  display: flex;
+}
+
+.user-name{
+  font-weight: bold;
+
+}
+
+.user-tag{
+  color: rgb(101, 101, 101);
+  margin-left: 5px;
+ 
+}
+
+.tweet{
+ margin-bottom: 15px;
+}
+
+
+
+.link-card{
+  display: flex;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(209, 207, 207);
+  border-radius: 15px;
+  overflow: hidden;
+  align-items: center;
+  
+}
+
+.video-preview{
+  background-color: rgb(209, 207, 207);
+  width: 100px;
+  height: 100px;
+  margin-right: 10px;
+}
+
+.video-info{
+  flex: 1;
+}
+
+.linked-website{
+  color: rgb(101, 101, 101);
+  margin-bottom: 5px;
+}

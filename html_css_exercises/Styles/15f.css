@@ -1,0 +1,49 @@
+.shirt-thumbnail{
+  display: inline-block;
+  position: relative;
+}
+
+img{
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+}
+
+.discount{
+  position: absolute;
+  font-size: 14px;
+  top: 8px;
+  right: 0px;
+  background-color: black;
+  color: white;
+  font-family: arial;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+
+.bottom-overlay{
+  position: absolute;
+  display: flex;
+  bottom: 0px;
+  right: 0px;
+  left: 0px;
+  height: 100px;
+  background-color: rgba(255, 255, 255, 0.564);
+  justify-content: center;
+  align-items: center;
+}
+
+button{
+  font-size: 12px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: black;
+  font-family: arial;
+  border-width: 2px;
+  border-style: solid;
+  font-weight: bold;
+}

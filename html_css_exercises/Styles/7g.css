@@ -1,0 +1,29 @@
+.thumbnail{
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  object-position: top;
+  border-radius: 20px;
+  vertical-align: middle;
+
+}
+.tweet-box{
+  height: 20px;
+  width: 200px;
+  color: gray;
+  margin-left: 6px;
+  vertical-align: middle;
+  border-style: none;
+  
+}
+
+.tweet-button{
+  color: white;
+  background-color: rgb(78, 152, 227);
+  border-style: none;
+  height: 26px;
+  vertical-align: middle;
+  width: 60px;
+  margin-left: 8px;
+  border-radius: 13px;
+}

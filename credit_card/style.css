@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+*{
+  font-family: "Poppins", sans-serif;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body{
+  display: flex;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background: #e3f2fd;
+}
+
+.container{
+  position: relative;
+  width: 100%;
+  max-width: 380px;
+  padding: 25px;
+  border-radius: 28px;
+  background-image: url(images/bg.png);
+  background-size: cover;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+
+}
+
+header,
+.logo{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+ }
+
+.logo img{
+  width: 48px;
+  margin-right: 10px;
+}
+
+
+header .chip{
+  width: 60px;
+}
+
+
+
+.container .card-details{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-top: 40px;
+}
+
+h2{
+  font-size: 16px;
+  font-weight: 400;
+  color: white;
+}
+
+h4{
+  font-size: 10px;
+  font-weight: 400;
+  color: white;
+}
+
+h2.number{
+  font-size: 18px;
+  letter-spacing: 1px;
+  margin-top: 4px;
+}
+
+h2.name{
+  margin-top: 20px;
+}
+
+
+
+

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Website Login</title>
+  <link rel="stylesheet" href="style.css" class="stylesheet">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+  <header>
+    <div class="header-container">
+      <div class="left-section">
+        <label for="menu-toggle" class="menu">
+          <i class='bx bx-menu'></i>
+          <span>Menu</span>
+        </label>
+      </div>
+      <div class="middle-section">
+        <button>
+          <i class='bx bx-search'></i>
+        </button>
+        <input class="search-bar" type="search" placeholder="Search">
+      </div>
+      <div class="right-section">
+        <span>About Us</span>
+      </div>
+    </div>
+  </header>
+  <input type="checkbox" id="menu-toggle" class="menu-toggle">
+  <nav>
+      <ul>
+        <li><a href="#">Products</a></li>
+        <li><a href="#">Ideas</a></li>
+        <li><a href="#">How it works</a></li>
+        <li><a href="#">Suggestions</a></li>
+        <li><a href="#">Contact Us</a></li>
+      </ul>
+  </nav>
+  <section>
+    <div class="form-container">
+      <h1>Log in to your account!</h1>
+      <div class="email-row">
+        <h2>Enter your email</h2>
+        <input type="text" placeholder="Email" class="email">
+      </div>
+      <div class="password-row">
+        <h2>Enter your password</h2>
+        <input type="text" placeholder="Password" class="password">
+        <h3>Forgot your password?
+          <a href="#">Click here</a>
+        </h3>
+      </div>
+      <button>Log in</button>
+      <h3>Not a member?
+        <a href="#">Sign up</a>
+      </h3>
+    </div>
+  </section>
+</body>
+</html>

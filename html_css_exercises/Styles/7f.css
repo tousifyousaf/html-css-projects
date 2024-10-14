@@ -1,0 +1,39 @@
+.email-tag{
+  color: gray;
+  margin-top: 0px;
+  font-family: arial;
+  font-size: 12px;
+  margin-bottom: 4px;
+}
+
+.search-box{
+  width: 290px;
+  margin-bottom: 15px;
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+  height: 20px;
+  border-radius: 5px;
+  
+}
+.disclaimer{
+  color: gray;
+  font-family: arial;
+  font-size: 12px;
+  margin-top: 0px;
+}
+
+.join-button{
+  color: white;
+  background-color: rgb(26, 96, 209);
+  width: 294px;
+  border-style: none;
+  font-family: arial;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  height: 35px;
+  border-radius: 17.5px;
+  cursor: pointer;
+}

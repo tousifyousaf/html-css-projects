@@ -1,0 +1,12 @@
+.exercise-grid-1{
+  display: grid;
+  grid-template-columns: 200px 75px;
+}
+
+.blue1{
+  background-color: lightblue;
+}
+
+.pink1{
+  background-color: lightpink;
+}

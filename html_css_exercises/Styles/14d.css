@@ -1,0 +1,50 @@
+div{
+  font-family: arial;
+}
+
+.sidebar{
+  background-color: green;
+  color: white;
+  position: fixed;
+  top: 0px;
+  bottom: 0px;
+  right: 0px;
+  width: 100px;
+  
+}
+.overlay{
+  display: flex;
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.6);
+  top:0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  align-items: center;
+  justify-content: center;
+}
+
+.model-card{
+  width: 300px;
+  background-color: white;
+  padding-top: 15px;
+  padding-bottom: 18px;
+  padding-left: 15px;
+  border-radius: 10px;
+}
+
+.title{
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.subject{
+  font-size: 18px;
+  margin-bottom: 12px;
+}
+
+button{
+  font-size: 18px;
+  
+}

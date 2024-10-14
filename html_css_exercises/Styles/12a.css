@@ -1,0 +1,15 @@
+.practice-flexbox{
+  display: flex;
+  flex-direction: row;
+
+}
+
+.flexbox1{
+  background-color: lightblue;
+  width: 200px;
+}
+
+.flexbox2{
+  background-color: lightpink;
+  width: 75px;
+}

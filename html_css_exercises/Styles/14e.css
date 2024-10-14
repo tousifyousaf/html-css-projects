@@ -1,0 +1,61 @@
+body{
+  background-color: rgba(0, 0, 0, 0.3);
+  height: 3000px;
+}
+
+div{
+  font-family: arial;
+  font-size: 12px;
+}
+
+button{
+  font-size: 11px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 10px;
+  padding-left: 10px;
+  border-style: none;
+  border-radius: 5px;
+}
+
+.header{
+  position: fixed;
+  display: flex;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  height: 40px;
+  background-color: white;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 50px;
+  padding-left: 50px;
+}
+
+.userinfo-side{
+  display: flex;
+  align-items: center;
+}
+
+.profile-picture{
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+  object-position: top;
+  border-radius: 15px;
+}
+
+.username{
+  font-weight: bold;
+  margin-left: 5px;
+}
+
+.add-button{
+  background-color: rgb(50, 112, 211);
+  color: white;
+}
+
+.message-button{
+  font-weight: bold;
+  background-color: rgb(228, 226, 226);
+}

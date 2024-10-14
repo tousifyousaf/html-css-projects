@@ -1,0 +1,42 @@
+.twitter-card{
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 340px;
+  border-radius: 5px;
+  box-shadow: 0 0px 6px rgba(0, 0, 0, 0.4);
+}
+
+
+
+.thumbnail{
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  object-position: top;
+  border-radius: 20px;
+  vertical-align: middle;
+}
+
+.tweet-box{
+  vertical-align: middle;
+  font-family: arial;
+  width: 220px;
+  height: 20px;
+  border-style: none;
+}
+
+.tweet-button{
+  background-color: rgb(52, 147, 249);
+  height: 24px;
+  width: 60px;
+  border-style: none;
+  color: white;
+  font-family: arial;
+  vertical-align: middle;
+  border-radius: 22px;
+  font-size: 12px;
+  font-weight: bold;
+
+}
